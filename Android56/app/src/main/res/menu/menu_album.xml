@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cs213.android56.MainActivity">
+    <item
+        android:id="@+id/action_addphoto"
+        android:orderInCategory="100"
+        android:title="Add photo"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_removephoto"
+        android:title="Remove Photo" />
+    <item
+        android:id="@+id/action_displayphoto"
+        android:title="Display" />
+    <item
+        android:id="@+id/action_movephoto"
+        android:title="Move Photo" />
+</menu>
